@@ -1,0 +1,72 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+<title>Frequency Response</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>80a3f04b-934b-463e-9d02-58e7c62c36d7</md:uuid>
+</metadata>
+<content>
+<section id="id34637250">
+<title>Frequency Response Palette:</title>
+<para id="id34637258">The VIs in this sub-palette that are used
+most frequently are CD Bode, CD Nyquist, and CD Gain and Phase
+Margins. These VIs are frequently used in Chapter 6, and are also
+polymorphic.</para>
+<figure id="id34637271">
+<media id="idp1641968" alt=""><image src="../../media/Graphic1-c7a9.png" mime-type="image/png"/></media>
+</figure>
+<section id="id34637295">
+<title>CD Bode.vi:</title>
+<figure id="id34637305">
+<media id="idp1726000" alt=""><image src="../../media/Graphic2-b40b.png" mime-type="image/png"/></media>
+</figure>
+<para id="id34637329">This VI gives the Bode Magnitude and Phase
+plots of a system, and the input is the open loop model.</para>
+<figure id="id34637338">
+<media id="idm771264" alt=""><image src="../../media/Graphic3-1a2e.png" mime-type="image/png"/></media>
+</figure>
+<para id="id34637362">The output terminals that are of interest are
+the ones for plotting the Magnitude and Phase graphs. These can be
+plotted by creating indicators for the respective terminals. The
+magnitude plot is shown here.</para>
+<figure id="id34637373">
+<media id="idm1233488" alt=""><image src="../../media/Graphic4-e2dc.png" mime-type="image/png"/></media>
+</figure>
+</section>
+<section id="id34637401">
+<title>CD Nyquist.vi:</title>
+<figure id="id34637411">
+<media id="idm934096" alt=""><image src="../../media/Graphic5-353c.png" mime-type="image/png"/></media>
+</figure>
+<para id="id34637436">This VI gives the Nyquist plot of a system. 
+<figure id="id34637447">
+<media id="idm937248" alt=""><image src="../../media/Graphic6-f7cd.png" mime-type="image/png"/></media>
+</figure></para>
+<para id="id34637471">Remember to right-click on the output
+terminal of CD Nyquist and select Create»Indicator to create the
+Nyquist Plot indicator.</para>
+<figure id="id34637490">
+<media id="idm6783536" alt=""><image src="../../media/Graphic7.png" mime-type="image/png"/></media>
+</figure>
+</section>
+<section id="id34637515">
+<title>CD Gain and Phase Margin.vi:</title>
+<figure id="id34637525">
+<media id="idm8059280" alt=""><image src="../../media/Graphic8.png" mime-type="image/png"/></media>
+</figure>
+<para id="id34637550">This VI gives the Gain and Phase Margins of a
+system, along with the Magnitude and Phase graph indicating the
+position where the Gain and Phase Margins occur.</para>
+<note id="idm194352">The numerator has been changed so that the function has a valid Phase Margin.</note>
+<figure id="id34637569">
+<media id="idp3070000" alt=""><image src="../../media/Graphic9.png" mime-type="image/png"/></media>
+</figure>
+<para id="id34637593">The Gain and Phase margins are shown in a
+numeric indicator as shown.</para>
+<figure id="id34637602">
+<media id="idm8139968" alt=""><image src="../../media/Graphic10.png" mime-type="image/png"/></media>
+</figure>
+<para id="id34637626">The Magnitude graph obtained from the Block
+Diagram above is shown below. The zero crossing of the magnitude is
+indicated in the plot.</para>
+</section>
+</section>
+</content>
+</document>

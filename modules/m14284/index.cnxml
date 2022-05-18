@@ -1,0 +1,51 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+<title>Model Interconnection</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6c9a58d3-11d5-47ad-bfa4-f2ef883e8454</md:uuid>
+</metadata>
+<content>
+<section id="id5277580">
+<title>Model Interconnection Palette:</title>
+<para id="id4517450">The VIs in this sub-palette can be used to
+connect different models in various configurations (i.e. Series,
+Parallel or Feedback mode).</para>
+<figure id="id6387809">
+<media id="idm5473264" alt=""><image src="../../media/Graphic1-dc06.png" mime-type="image/png"/></media>
+</figure>
+<para id="id6353279">The State Space and Transfer Function Model
+created previously are now connected in Series.</para>
+<figure id="id6353595">
+<media id="idp6753312" alt=""><image src="../../media/Graphic2-d253.png" mime-type="image/png"/></media>
+</figure>
+<para id="id6386426">The above LabVIEW diagram creates the
+following system in block representation. Above, Model 1 is the
+state space model and Model 2 is the transfer function
+model.</para>
+<figure id="id6386483">
+<media id="idp2795568" alt=""><image src="../../media/Graphic3-9b3a.png" mime-type="image/png"/></media>
+</figure>
+<para id="id6386504">This example also indicates the polymorphic
+nature of the functions. Note that the Polymorphic VI Selector at
+the bottom of the CD Series VI has changed to indicate SS and TF
+meaning that one of the inputs is a State Space Model and the other
+is a Transfer Function Model. LabVIEW performs this change
+automatically.</para>
+<para id="id6386536">In the same manner, if you want to connect the
+Transfer Function Model in the feedback path of the State Space
+model, the function CD Feedback would be used.</para>
+<figure id="id6386522">
+<media id="idm5793344" alt=""><image src="../../media/Graphic4-b77b.png" mime-type="image/png"/></media>
+</figure>
+<para id="id6387110">The above LabVIEW diagram creates the
+following system in block representation. Above, Model 1 is the
+state space model and Model 2 is the transfer function
+model.</para>
+<figure id="id6386614">
+<media id="idm5988032" alt=""><image src="../../media/Graphic5-b353.png" mime-type="image/png"/></media>
+</figure>
+
+<note id="idp1812816">In this case, the order in which the models are connected is important. The model that is in the feedback path is connected to the second terminal (Model 2).</note><para id="id6386865">Thus, if we had to connect the State Space
+model in the feedback path of the Transfer Function Model, the
+input connections would need to be reversed.</para>
+</section>
+</content>
+</document>

@@ -1,0 +1,33 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+<title>Model Conversion</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>4d8013e4-8602-4d13-96e5-fdb0ef102bc2</md:uuid>
+</metadata>
+<content>
+<section id="id13426388">
+<title>Model Conversion Palette:</title>
+<para id="id13339312">The VIs found in the Model Conversion
+sub-palette are used to convert system models from one
+representation to another (i.e. from State Space representation to
+Transfer Function or Pole-Zero-Gain and vice versa). Continuous
+model and discrete time models can also be converted from and into
+one another.</para>
+<figure id="id12283863">
+<media id="idp7127056" alt=""><image src="../../media/Graphic1-b7ea.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13576742">To convert the State space model discussed
+previously into a Transfer Function Model, use a similar Block
+Diagram to the one shown below.</para>
+<figure id="id13312878">
+<media id="idp2281424" alt=""><image src="../../media/Graphic2-f384.png" mime-type="image/png"/></media>
+</figure>
+<para id="id6451065">Alternatively, if you wish to convert the
+Transfer Function Model into a State Space Model, the following
+connection should be made.</para>
+<figure id="id13552122">
+<media id="idm467408" alt=""><image src="../../media/Graphic3-055b.png" mime-type="image/png"/></media>
+</figure>
+<para id="id11698843">Other functions in this sub-palette can be
+connected in a similar fashion.</para>
+</section>
+</content>
+</document>

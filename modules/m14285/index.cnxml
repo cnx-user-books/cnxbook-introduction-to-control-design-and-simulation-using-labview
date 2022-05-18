@@ -1,0 +1,87 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+<title>Model Construction</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5256354e-e690-4481-b94c-3b53fa7c04f6</md:uuid>
+</metadata>
+<content>
+<section id="id13469284">
+<title>Model Construction Palette:</title>
+<figure id="id13438648">
+<media id="idp1070448" alt=""><image src="../../media/Graphic1-4990.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13417438">The VIs in this section are used to construct
+various types of Models like State Space, Transfer Function, and
+Zero-Pole-Gain.</para>
+<para id="id13350906">The Construct State Space Model and Construct
+Transfer Function Model functions are discussed below.</para>
+<section id="id13421286">
+<title>CD Construct State Space Model:</title>
+<figure id="id13498303">
+<media id="idm1883584" alt=""><image src="../../media/Graphic2-dfbb.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13415520">The terminals for the function are shown
+above. If the Sampling Time terminal is not connected, the system
+is by default considered continuous. Connecting a value to Sampling
+Time will change the system to discrete time using the given
+sampling time. There are terminals for the A, B, C, and D matrices
+of the State Space model. Once LabVIEW creates the State-Space
+model (available at the output terminal), it can be used for other
+functions and can be converted into other forms as is discussed
+further in this chapter.</para>
+<para id="id13382932">Here is an example of creating a State Space
+model. The output can be connected as input to numerous other
+functions in the Control Design toolkit.</para>
+<figure id="id12202447">
+<media id="idm1712480" alt=""><image src="../../media/Graphic3-9a69.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13332707">The inputs can be either constants (on the
+Block Diagram) or controls (on the Front Panel). Most examples
+shown will use constants on the Block Diagram to make this manual
+more readable, however oftentimes using controls on the Front Panel
+will be more efficient. The constants, controls, and indicators can
+all be created by right-clicking on the desired terminal and
+selecting an option from the pop-up menu.</para>
+<para id="id13471969">The many special functions and data
+structures used in Control Design make this a very useful shortcut
+for creating the correct Controls and Indicators.</para>
+<figure id="id13241219">
+<media id="idm362224" alt=""><image src="../../media/Graphic4-d359.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13401401">Many Control Design functions, including
+Construct State-Space Model, are polymorphic. A polymorphic VI will
+have the additional menu structure below the icon (in this figure
+above, labeled Numeric). This indicates that the input to the model
+is going to be in a numeric form.</para>
+<para id="id13485538">Also available with the same function is the
+ability to enter the model in Symbolic form, meaning the input has
+variables in it, and the value of the variables is controlled from
+the Front Panel. To select this option, simply click on the bottom
+of the icon with the operating tool and select the Symbolic
+option.</para>
+<note id="idm9690128">The symbolic option is discussed in further detail later.</note>
+</section>
+<section id="id10413483">
+<title>CD Construct Transfer Function Model:</title>
+<para id="id12070076">
+<figure id="id13440771">
+<media id="idp903040" alt=""><image src="../../media/Graphic5-aa92.png" mime-type="image/png"/></media>
+</figure>
+</para>
+<para id="id13384580">The terminals are shown above. The important
+terminals are the Numerator and Denominator. As in the previous
+case, once the model is created, it can either be displayed on the
+Front Panel or connected to other functions. There is also a
+Symbolic input option in this case, and examples of it are
+available in further chapters.</para>
+<example id="element-763"><para id="element-227">Transfer Function and associated inputs for the numerator and denominator are shown below. Notice the order of the coefficients.
+	</para><figure id="element-230"><media id="idp416560" alt=""><image src="../../media/Graphic6-f874.png" mime-type="image/png"/></media>
+</figure>
+</example>
+
+<para id="id13470262">In LabVIEW, the first element of the array is
+the coefficient of s0, the second element is coefficient of s1, the
+third is coefficient of s2, and so on.</para>
+<note id="idm1276336">Only the State Space and Transfer function representation have been represented in the tutorial. Many other model types exist.</note>
+</section>
+</section>
+</content>
+</document>

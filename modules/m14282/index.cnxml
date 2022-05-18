@@ -1,0 +1,54 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+<title>Analyzing Dynamic Characteristics</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6e664910-8dac-46f2-ab9e-a5b920c35e37</md:uuid>
+</metadata>
+<content>
+<section id="id13958788">
+<title>Dynamic Characteristics Palette:</title>
+<para id="id13321349">The VIs found here are used to find the
+dynamic properties of a system (i.e. Root Locus, DC Gain, Time
+Response Parametric Data, etc).</para>
+<figure id="id13953387">
+<media id="idp5582928" alt=""><image src="../../media/Graphic1-5041.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13941735">The most frequently used VI of this
+sub-palette is CD Root Locus. This VI plots the trajectory of
+closed loop poles as the feedback gain varies from zero to
+infinity.</para>
+<section id="id13866583">
+<title>CD Root Locus.vi:</title>
+<figure id="id13950110">
+<media id="idp9099440" alt=""><image src="../../media/Graphic2-6c0d.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13979081">This function gives the Root Locus plot of a
+system. This polymorphic VI accepts any model as an input,
+including Transfer Function, State-Space or Pole-Zero-Gain models.
+The indicator for this VI is created in the same fashion as that
+for CD Nyquist, and the grid type can only be changed from the
+Block Diagram.</para>
+<figure id="id13765589">
+<media id="idp5882432" alt=""><image src="../../media/Graphic3-0307.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13942388">The Root Locus plot in the Front Panel is
+shown here. This function also plots the Evans plot or trajectory
+of closed-loop poles.</para>
+<figure id="id13939707">
+<media id="idm1256368" alt=""><image src="../../media/Graphic4-e681.png" mime-type="image/png"/></media>
+</figure>
+</section>
+<section id="id13945061">
+<title>DC Gain.vi:</title>
+<para id="id13861035">This VI calculates the DC Gain of the
+system.</para>
+<figure id="id13864305">
+<media id="idp9437888" alt=""><image src="../../media/Graphic5-1999.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13948392">The DC Gain of the system is shown in the
+Front Panel.</para>
+<figure id="id13368053">
+<media id="idp8626544" alt=""><image src="../../media/Graphic6-b852.png" mime-type="image/png"/></media>
+</figure>
+</section>
+</section>
+</content>
+</document>

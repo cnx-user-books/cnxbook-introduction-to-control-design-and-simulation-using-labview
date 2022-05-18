@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+<title>Time Response</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>0bd925de-1511-427a-bee1-5b726bb2d3df</md:uuid>
+</metadata>
+<content>
+<section id="id13489714">
+<title>Time Response Palette:</title>
+<para id="id3276557">The VIs from this palette that are used most
+often include CD Step Response and CD Impulse Response. Again,
+these are polymorphic functions.</para>
+<figure id="id13180608">
+<media id="idm2002016" alt=""><image src="../../media/Graphic1-28fd.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13509871">The following Block Diagram shows the Step
+and Impulse Response of the Transfer Function model. The output
+graphs are obtained by creating indicators from the output
+terminals of the Step and Impulse Response functions.</para>
+<figure id="id3170182">
+<media id="idm2383888" alt=""><image src="../../media/Graphic2-a4ab.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13406507">The output graphs as shown on the Front
+Panel:</para>
+<figure id="id13059570">
+<media id="idm1434432" alt=""><image src="../../media/Graphic3-a658.png" mime-type="image/png"/></media>
+</figure>
+<para id="id4149682">Additionally, statistics on the performance of
+the step response can be calculated. The implementation and results
+of the CD Parametric Time Response VI can be seen in the following
+two figures.</para>
+<figure id="id12079375">
+<media id="idm9168368" alt=""><image src="../../media/Graphic4-5072.png" mime-type="image/png"/></media>
+</figure>
+<figure id="id13472988">
+<media id="idp1844672" alt=""><image src="../../media/Graphic5-aacd.png" mime-type="image/png"/></media>
+</figure>
+<para id="id13644880">When this VI is used for State Space model or
+system analysis, the results for each individual state is
+given.</para>
+</section>
+</content>
+</document>
